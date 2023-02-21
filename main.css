@@ -23,9 +23,19 @@
 }
 .li{
     list-style: none;
+    padding-bottom: 5%;
+    padding-left:3%;
+}
+.add{
+    padding-left: 3%;
 }
 .add :link{
     text-decoration: none;
 }
 .buss{
+    margin:-6% 0% 2% 0%;
+    padding-bottom: 20%;
+}
+.sec2{
+    text-align: right;
 }
