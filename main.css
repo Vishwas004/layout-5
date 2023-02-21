@@ -1,0 +1,31 @@
+.coded {
+    position: absolute;
+    bottom:0;
+    top: 7rem;
+    font-size: large;
+}
+.bi{
+    font-size: 70px;
+}
+.lorem1{
+    padding-left: 5%;
+    padding-right:30%;
+}
+.trend h3{
+    position: relative;
+    top:55px;
+    right: -45%;
+    color: white;
+    background-color: #f7560b9f;
+    border: 5px solid white;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.li{
+    list-style: none;
+}
+.add :link{
+    text-decoration: none;
+}
+.buss{
+}
