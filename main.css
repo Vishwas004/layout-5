@@ -1,3 +1,6 @@
+.pad{
+    margin-left: 3%;
+}
 .coded {
     position: absolute;
     bottom:0;
@@ -9,7 +12,9 @@
 }
 .lorem1{
     padding-left: 5%;
-    padding-right:30%;
+    padding-right:19%;
+    font-size: large;
+    padding-bottom: 5%;
 }
 .trend h3{
     position: relative;
@@ -21,21 +26,36 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
 }
-.li{
-    list-style: none;
-    padding-bottom: 5%;
-    padding-left:3%;
-}
-.add{
-    padding-left: 3%;
-}
 .add :link{
     text-decoration: none;
 }
-.buss{
-    margin:-6% 0% 2% 0%;
-    padding-bottom: 20%;
+.li{
+    list-style: none;
+    padding: 4%;
 }
-.sec2{
-    text-align: right;
+.web{
+    text-align: center;
+} 
+.buss{
+    padding-bottom: 10%;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\   color \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.color_1{
+    position: absolute;
+    top: 0%;
+    background-color: rgb(255, 166, 0);
+    opacity: 70%;
+   height: 700px;
+    width: 700px;
+    z-index: -2;
+}
+.color_2{
+    position: absolute;
+    /* right: 0%;
+    bottom: 0%; */
+    background-color: cyan
+   height: 500px;
+    width: 500px;
+    /* z-index: 1; */
 }
