@@ -4,15 +4,14 @@
 .coded {
     position: absolute;
     bottom:0;
-    top: 7rem;
-    font-size: large;
+    top: 8rem;
+    font-size: larger;
 }
 .bi{
-    font-size: 70px;
+    font-size: 80px;
 }
 .lorem1{
     padding-left: 5%;
-    padding-right:19%;
     font-size: large;
     padding-bottom: 5%;
 }
@@ -31,7 +30,8 @@
 }
 .li{
     list-style: none;
-    padding: 4%;
+    padding: 5%;
+    font-size: x-large;
 }
 .web{
     text-align: center;
@@ -40,22 +40,34 @@
     padding-bottom: 10%;
 }
 
+
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\   color \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.photo{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    opacity: 70%;
+    z-index: -3;
+}
 .color_1{
     position: absolute;
     top: 0%;
-    background-color: rgb(255, 166, 0);
+    left: 0%;
+    background-color: #c46141;
     opacity: 70%;
-   height: 700px;
+   height: 900px;
     width: 700px;
+    left: 20px;
     z-index: -2;
 }
 .color_2{
     position: absolute;
-    /* right: 0%;
-    bottom: 0%; */
-    background-color: cyan
-   height: 500px;
-    width: 500px;
-    /* z-index: 1; */
+    right: 0%;
+    bottom: 0%;
+    background-color:#7dc2bcdc;
+    opacity: 70%;
+    height: 900px;
+    width: 800px;
+    z-index: -1;
 }
+
